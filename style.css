@@ -1,0 +1,109 @@
+.gallery img{
+    width: 100%;
+}
+
+body{
+    background-color: #F9FF73;
+}
+
+#menu{
+    background-color: #2B8C5D;
+    width: 100%;
+    height: 40px;
+    padding-top: 20px;
+}
+
+#menu a{
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-size; 18px;
+    text-decoration: none;
+    font-weight: 800px;
+    
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#menu a:hover{
+    color: #88A798;
+}
+
+h2{
+    text-align: center;
+    font-family: Impact, fantasy;
+    font-size: 25px;
+    color: #3C560C;
+    font-style: inherit;
+}
+
+h4{
+    text-align: center;
+    font-family: helvetica, cursive;
+    font-size: 25px;
+}
+
+ul{
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    list-style-type: square;
+}
+
+ol{
+    list-style-image: url(images/pointer-icon.png);
+    font-size: 25px;
+}
+
+table, td{
+    width: 55%;
+    border-collapse: collapse;
+    border: 1px solid black;
+    table-layout: fixed;
+    margin: auto;
+    font-size: 20px;
+    text-align: center; 
+}
+
+th{
+    padding: 20px;
+    color: #25D982;
+}
+
+
+td{
+    padding: 20px;
+}
+
+p{
+    font-family: helvetica, sans-serif;
+    font-size: 50px;
+}
+
+input{
+    font-size: 35px;
+}
+
+label{
+    font-size: 35px;
+}
+.button a{
+    text-decoration: none;
+    font-size: 28px;
+    font-family: helvetica, sans-serif;
+    background-color: red;
+    color: white;
+    padding: 12px 10px;
+   
+}
+
+.button{
+    display: flex;
+}
+
+.button a:hover{
+    background-color: #44E51D;
+}
+
+.message textarea{
+    font-style: arial, sans-serif;
+    font-size: 20px;
+}
